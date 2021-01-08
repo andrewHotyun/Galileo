@@ -68,3 +68,81 @@ You're about to initialize a Firebase project in this directory:
 [debug] [2021-01-08T21:44:43.486Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
 [debug] [2021-01-08T21:44:43.766Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
 [debug] [2021-01-08T21:44:43.766Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-01-08T21:44:58.263Z] ----------------------------------------------------------------------
+[debug] [2021-01-08T21:44:58.266Z] Command:       D:\Install\Node.js\node.exe C:\Users\AndrewPhoenix\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-01-08T21:44:58.266Z] CLI Version:   9.1.2
+[debug] [2021-01-08T21:44:58.266Z] Platform:      win32
+[debug] [2021-01-08T21:44:58.266Z] Node Version:  v14.15.3
+[debug] [2021-01-08T21:44:58.267Z] Time:          Fri Jan 08 2021 23:44:58 GMT+0200 (Восточная Европа, стандартное время)
+[debug] [2021-01-08T21:44:58.268Z] ----------------------------------------------------------------------
+[debug] [2021-01-08T21:44:58.268Z] 
+[debug] [2021-01-08T21:44:58.272Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-08T21:44:58.272Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React.js\weather
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-01-08T21:45:04.963Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2021-01-08T21:45:05.375Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 08 Jan 2021 21:45:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project galileo-228 (Galileo) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-01-08T21:47:03.040Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-01-08T21:47:03.174Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-01-08T21:47:03.175Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.2","browserURL":"https://www.gstatic.com/firebasejs/8.2.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.2/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.2/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.2/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.2/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.2/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.2/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.2/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.2/firebase-firestore.memory.js"}}
+[info] +  Wrote src, public, node_modules, .idea, .gitinore, firebase-debug.log, package.json, prepros.config/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming D:\React.js\weather is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=752921930&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-01-08T21:47:04.275Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"fb941447ed80177721d9","redirect_uri":"http://localhost:9005","state":"752921930"}
+[debug] [2021-01-08T21:47:04.662Z] <<< HTTP RESPONSE 200 {"date":"Fri, 08 Jan 2021 21:47:03 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","server":"GitHub.com","status":"200 OK","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding","etag":"W/\"1670a585c7a7e4e44554c5416a5813dc\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js","x-github-request-id":"D3BA:C810:BFE54B:10C83BF:5FF8D2D7"}
+[debug] [2021-01-08T21:47:04.663Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-01-08T21:47:05.084Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-01-08T21:47:05.084Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"andrewHotyun","id":62797837,"node_id":"MDQ6VXNlcjYyNzk3ODM3","avatar_url":"https://avatars3.githubusercontent.com/u/62797837?v=4","gravatar_id":"","url":"https://api.github.com/users/andrewHotyun","html_url":"https://github.com/andrewHotyun","followers_url":"https://api.github.com/users/andrewHotyun/followers","following_url":"https://api.github.com/users/andrewHotyun/following{/other_user}","gists_url":"https://api.github.com/users/andrewHotyun/gists{/gist_id}","starred_url":"https://api.github.com/users/andrewHotyun/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andrewHotyun/subscriptions","organizations_url":"https://api.github.com/users/andrewHotyun/orgs","repos_url":"https://api.github.com/users/andrewHotyun/repos","events_url":"https://api.github.com/users/andrewHotyun/events{/privacy}","received_events_url":"https://api.github.com/users/andrewHotyun/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":4,"public_gists":0,"followers":0,"following":0,"created_at":"2020-03-28T12:43:01Z","updated_at":"2021-01-08T21:44:14Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":1311,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as andrewHotyun 
+[info] 
+[debug] [2021-01-08T21:47:37.956Z] >>> [apiv2][query] GET https://api.github.com/repos/andrewHotyun/actions/secrets/public-key type=owner
+[debug] [2021-01-08T21:47:38.259Z] <<< [apiv2][status] GET https://api.github.com/repos/andrewHotyun/actions/secrets/public-key 404
+[debug] [2021-01-08T21:47:38.259Z] <<< [apiv2][body] GET https://api.github.com/repos/andrewHotyun/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-01-08T21:47:46.813Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2021-01-08T21:47:47.108Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2021-01-08T21:47:47.108Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-01-08T21:48:34.438Z] >>> [apiv2][query] GET https://api.github.com/repos/galileo/actions/secrets/public-key type=owner
+[debug] [2021-01-08T21:48:34.787Z] <<< [apiv2][status] GET https://api.github.com/repos/galileo/actions/secrets/public-key 404
+[debug] [2021-01-08T21:48:34.787Z] <<< [apiv2][body] GET https://api.github.com/repos/galileo/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-01-08T21:49:52.213Z] >>> [apiv2][query] GET https://api.github.com/repos/andrewHotyun/galileo/actions/secrets/public-key type=owner
+[debug] [2021-01-08T21:49:52.556Z] <<< [apiv2][status] GET https://api.github.com/repos/andrewHotyun/galileo/actions/secrets/public-key 404
+[debug] [2021-01-08T21:49:52.556Z] <<< [apiv2][body] GET https://api.github.com/repos/andrewHotyun/galileo/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2021-01-08T21:50:27.852Z] >>> [apiv2][query] GET https://api.github.com/repos/andrewHotyun/galile-228o/actions/secrets/public-key type=owner
+[debug] [2021-01-08T21:50:28.144Z] <<< [apiv2][status] GET https://api.github.com/repos/andrewHotyun/galile-228o/actions/secrets/public-key 404
+[debug] [2021-01-08T21:50:28.144Z] <<< [apiv2][body] GET https://api.github.com/repos/andrewHotyun/galile-228o/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2021-01-08T21:50:31.840Z] >>> [apiv2][query] GET https://api.github.com/repos/andrewHotyun/galile-228/actions/secrets/public-key type=owner
+[debug] [2021-01-08T21:50:32.131Z] <<< [apiv2][status] GET https://api.github.com/repos/andrewHotyun/galile-228/actions/secrets/public-key 404
+[debug] [2021-01-08T21:50:32.131Z] <<< [apiv2][body] GET https://api.github.com/repos/andrewHotyun/galile-228/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
